@@ -6,8 +6,8 @@ public class WordLadder {
     private static LinkedList<String> visited;
     private static String start, end;
 	public static void main(String[] args) throws IOException{
-		File dictfile = new File("dictionary.txt");
-		File infile = new File("infile.txt");
+		File dictfile = new File("dataFiles/dictionary.txt");
+		File infile = new File("dataFiles/infile.txt");
 		dict = new LinkedList<>();
 		// load the dictionary
 		try(
